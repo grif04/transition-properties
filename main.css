@@ -1,0 +1,24 @@
+.box {
+    height:50px;
+    width:50px;
+    margin: 10px;
+    background-color: #bada55;
+    transition-property: width, background-color;
+    transition-duration: 2s;
+}
+
+.box:hover{
+    width:150px;
+    background-color: #e84610;
+    transition-timing-function: 1s /* red */
+}
+
+a {
+  color: #e84610;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover{
+    color: #019fe1;
+}
